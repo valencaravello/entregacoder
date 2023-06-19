@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+
+  padding: 0;
+}
+.logo {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 21px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+.link {
+  background-color: #f0f696;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 0, 5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 30px -10px black;
+}
+
+header {
+  font-family: "Inter", sans-serif;
+  color: black;
+  background-color: #ffff;
+  padding: 0, 5rem 0;
+  position: sticky;
+  top: 0%;
+  z-index: 2%;
+}
+
+body {
+  padding-top: 4, 5rem;
+}
+.titulo {
+  margin: 1, 5rem;
+  margin-left: 0rem;
+  font-size: 80px;
+}
+
+h2 {
+  margin: 0rem;
+  margin-left: 2rem;
+  font-size: 70;
+}
+
+.botoningresar {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  margin-bottom: 10rem;
+  border: 5px solid #8c30f5;
+  padding: 10px;
+  background-color: #8c30f5;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "sand", sans-serif;
+  font-size: 25px;
+  box-shadow: 0 10px 30px -10px black;
+}
+
+section {
+  font-family: "Quicksand", sans-serif;
+  background-color: #d6b1ff;
+  padding-top: 1rem;
+}
+aside {
+  background-color: #d6b1ff;
+  padding-top: 1rem;
+}
+
+.botoncat {
+  justify-content: space-evenly;
+}
+
+.botonnarrativa {
+  margin-left: 50rems;
+  border: 5px solid #2afa17c0;
+  padding: 10px;
+  background-color: #2afa17c0;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "sand", sans-serif;
+}
+
+.botonoralidad {
+  margin-left: 50rems;
+  border: 5px solid #f0f696;
+  padding: 10px;
+  background-color: #f0f696;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "sand", sans-serif;
+}
+
+.botonpoesia {
+  margin-left: 50rems;
+  border: 5px solid #7b61ff;
+  padding: 10px;
+  background-color: #7b61ff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "sand", sans-serif;
+}
+
+.botonnoficcion {
+  margin-left: 50rems;
+  border: 5px solid #ffff;
+  padding: 10px;
+  background-color: #ffff;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "sand", sans-serif;
+}
+
+.botonhistorieta {
+  margin-left: 50rems;
+  border: 5px solid #d9d9d9;
+  padding: 10px;
+  background-color: #d9d9d9;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "sand", sans-serif;
+}
+.botonlibroalbum {
+  margin-left: 50rems;
+  border: 5px solid #e76161;
+  padding: 10px;
+  background-color: #e76161;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: "sand", sans-serif;
+}
+
+footer {
+  color: #ffff;
+  text-align: center;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  padding: 1rem 0;
+}
+
+iframe {
+  margin-left: 70rem;
+  margin-bottom: 1rem;
+}
+
+footer div {
+  text-align: right;
+}
+
+body {
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header header "
+    "nav nav "
+    "main main "
+    "footer footer ";
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.card-img-h {
+  height: 300px;
+}
