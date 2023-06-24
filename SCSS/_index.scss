@@ -1,22 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.logo {
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
-
-header {
-  padding: 0, 5rem 0;
-  position: sticky;
-  top: 0%;
-  z-index: 2%;
-}
-
 section {
-  color: #d6b1ff;
+  color: $primary-color;
   font-family: "Quicksand", sans-serif;
   padding-top: 1rem;
 }
@@ -49,14 +32,14 @@ h2 {
 }
 
 footer {
-  color: white;
+  color: #ffff;
   text-align: center;
   background-color: black;
   font-family: "Inter", sans-serif;
   padding: 1rem 0;
-}
-footer div {
-  text-align: right;
+  div {
+    text-align: right;
+  }
 }
 
 iframe {
@@ -68,7 +51,11 @@ body {
   grid-template-rows: auto auto 1fr auto;
   min-height: 100vh;
   grid-template-columns: 1fr;
-  grid-template-areas: "header header " "nav nav " "main main " "footer footer ";
+  grid-template-areas:
+    "header header "
+    "nav nav "
+    "main main "
+    "footer footer ";
 }
 
 header {
@@ -90,5 +77,3 @@ footer {
 .card-img-h {
   height: 300px;
 }
-
-/*# sourceMappingURL=Style.css.map */
