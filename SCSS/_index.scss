@@ -9,26 +9,50 @@ section {
   margin-left: 0rem;
   font-size: 80px;
 }
-
-h2 {
-  margin: 0rem;
-  margin-left: 2rem;
-  font-size: 70;
-}
-
 .botoningresar {
   margin-top: 1rem;
   margin-left: 5rem;
   margin-bottom: 10rem;
-  border: 5px solid #8c30f5;
-  padding: 10px;
-  background-color: #8c30f5;
-  color: #ffffff;
-  text-decoration: none;
+  border: 2px solid #bc81ff;
   border-radius: 10px;
   font-family: "sand", sans-serif;
   font-size: 25px;
   box-shadow: 0 10px 30px -10px black;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.botoningresar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  background-color: #ffff;
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  transition: all 0.5s;
+}
+
+.botoningresar:hover:before {
+  height: 190%;
+}
+
+.botoningresar:hover {
+  color: blueviolet;
+}
+h2 {
+  margin: 0rem;
+  margin-left: 2rem;
+  font-size: 70;
 }
 
 footer {
