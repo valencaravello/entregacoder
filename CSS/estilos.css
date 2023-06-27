@@ -21,9 +21,15 @@ header {
 }
 
 .titulo {
-  margin: 1, 5rem;
-  margin-left: 0rem;
+  text-align: center;
   font-size: 80px;
+  background-color: #d6b1ff;
+}
+
+.parrafo {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
 }
 
 h2 {
@@ -120,7 +126,6 @@ footer {
 }
 
 .navbar {
-  position: sticky;
   background-color: #ffff;
 }
 
