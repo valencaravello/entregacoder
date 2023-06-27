@@ -13,6 +13,11 @@ header {
   position: sticky;
   top: 0%;
   z-index: 2%;
+  background-image: url("../imagenes/jardin.jpg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .titulo {
@@ -35,28 +40,14 @@ h2 {
   border-radius: 10px;
   font-family: "sand", sans-serif;
   font-size: 25px;
+  color: #000000;
   box-shadow: 0 10px 30px -10px black;
   background-color: #ffffff;
-  color: #000000;
   cursor: pointer;
   font-size: 25px;
   text-transform: uppercase;
   padding: 20px 40px;
   position: relative;
-  overflow: hidden;
-  transition: all 0.5s;
-}
-
-.botoningresar:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 0%;
-  width: 100%;
-  background-color: #ffff;
-  z-index: -1;
-  border-radius: 0 0 50% 50%;
   transition: all 0.5s;
 }
 
@@ -118,6 +109,32 @@ footer {
   grid-area: footer;
 }
 
-.card-img-h {
-  height: 300px;
+.col {
+  background-color: #d6b1ff;
+  padding-left: 7rem;
+  margin-bottom: 0rem;
+}
+
+.d-flex {
+  margin-left: 65rem;
+}
+
+.navbar {
+  position: sticky;
+  background-color: #ffff;
+}
+
+.btn-outline-success {
+  background-color: #ffff;
+  border-color: #bc81ff;
+  color: #bc81ff;
+  font-family: sans-serif;
+}
+
+@media (min-width: 768px) {
+  body {
+    header {
+      height: 400px;
+    }
+  }
 }

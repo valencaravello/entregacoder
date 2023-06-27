@@ -15,6 +15,18 @@ header {
   z-index: 2%;
 }
 
+.navbar {
+  position: sticky;
+  background-color: white;
+}
+
+.btn-outline-success {
+  background-color: white;
+  border-color: #bc81ff;
+  color: #bc81ff;
+  font-family: sans-serif;
+}
+
 section {
   color: #d6b1ff;
   font-family: "Quicksand", sans-serif;
@@ -22,14 +34,11 @@ section {
 }
 
 .titulo {
-  margin: 1, 5rem;
-  margin-left: 0rem;
+  text-align: center;
   font-size: 80px;
 }
 
 .botoningresar {
-  margin-top: 1rem;
-  margin-left: 5rem;
   margin-bottom: 10rem;
   border: 2px solid #bc81ff;
   border-radius: 10px;
@@ -91,6 +100,7 @@ iframe {
 }
 
 body {
+  background-color: #bc81ff;
   grid-template-rows: auto auto 1fr auto;
   min-height: 100vh;
   grid-template-columns: 1fr;
@@ -113,8 +123,8 @@ footer {
   grid-area: footer;
 }
 
-.card-img-h {
-  height: 300px;
+.d-flex {
+  margin-left: 65rem;
 }
 
 /*# sourceMappingURL=Style.css.map */
