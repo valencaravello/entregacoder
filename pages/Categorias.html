@@ -23,8 +23,9 @@
   </head>
   <body>
     <header>
-      <a href="">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <!--NAVBAR-->
+    
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <nav class="navbar bg-light">
             <div class="container">
@@ -33,36 +34,40 @@
               </a>
             </div>
           </nav>
-          <a class="navbar-brand" href="/index.html">Inicio</a>
+          <a class="navbar-brand" href="../index.html">Inicio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../pages/Destacados.html">Destacados</a>
+                <a class="nav-link" aria-current="page" href="pages/Destacados.html">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/Eljardin.html" >El jardín</a>
+                <a class="nav-link" href="pages/Eljardin.html" >El jardín</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pages/Contactos.html">Contactos</a>
+                <a class="nav-link" href="pages/Contactos.html">Contactos</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Categorías
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Abrir todas</a></li>
+                  <li><a class="dropdown-item" href="">Abrir todas</a></li>
                   <li><a class="dropdown-item" href="#">NARRATIVA</a></li>
                   <li><a class="dropdown-item" href="#">ORALIDAD</a></li>
                   <li><a class="dropdown-item" href="#">POESÍA</a></li>
                   <li><a class="dropdown-item" href="#">NO FICCIÓN</a></li>
                   <li><a class="dropdown-item" href="#">HISTORIETA</a></li>
-                  <li><a class="dropdown-item" href="#">LIBRO ÁLBUM</a></li>
-                </ul>
+                  <li><a class="dropdown-item" href="#">LIBRO ÁLBUM</a></li>  
+          </ul>
               </li>
             </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+            </form>
           </div>
         </div>
       </nav>
@@ -70,13 +75,9 @@
         <section>
           <div>
             <h1 class="titulo">Categorías</h1>
-         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit fugit excepturi sed est beatae nihil itaque, fugiat
-          tenetur inventore repudiandae molestiae officia quasi corrupti iure
-          nulla fuga mollitia illo dolores facilis eum. Molestiae, aperiam
-          repudiandae beatae in quibusdam esse praesentium.
-        </p>
+         <h2>
+          Te presentamos las categorías de la biblioteca. Acá vas a poder buscar de manera más fácil y rápida el libro de tu preferencia.
+        </h2>
         </div>
         <div>
          
@@ -85,11 +86,19 @@
  
       <section >
         <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="col-sm-6 mb-3 mb-sm-5">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">NARRATIVA</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text">Cuentos: son relatos de ficción de extensión breve con un reducido número de personajes que realizan ac-
+                  ciones en un lugar y un tiempo determinado.
+                  Novela: narración más extensa que la de un cuento cuyo argumento, personajes y escenarios están más
+desarrollados complejizando la historia. Está dividida en capítulos.
+Mito - Leyenda: el mito y la leyenda son formas narrativas tomadas de la oralidad. Estructuralmente son similares
+al cuento folclórico. Las diferencias se centran básicamente en el tipo de personajes. Los mitos,
+generalmente, tratan sobre el origen del mundo en cambio, en las leyendas el tema es el origen de
+elementos naturales de una cultura.
+                </p>
                 <a href="#" class="btn btn-primary">VER</a>
               </div>
             </div>
@@ -98,18 +107,26 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">ORALIDAD</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text">Dentro de esta clasificación se encuentra aquella literatura.</p>
                 <a href="#" class="btn btn-primary">VER</a>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="col-sm-6 mb-3 mb-sm-5">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">POESÍA</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text">Los textos poéticos presentan un lenguaje particular que juega con la música, el sentido de las
+                  palabras y las asociaciones. La mayoría de las poesías están escritas en verso y utilizan recursos
+                  llamados figuras retóricas (metáforas, aliteraciones, anáforas, etc.). Estos textos no tienen como
+                  
+                  finalidad contar una historia, aunque hay algunos de trama narrativa. El objetivo es transmitir sen-
+                  saciones y su significado surge de las asociaciones que se realicen entre las palabras, en lo que
+                  
+                  ellas sugieren... Por lo tanto, el lector no va a buscar un mensaje puntual sino que va a disfrutar de
+                  la forma que se usó para escribirlo.</p>
                 <a href="#" class="btn btn-primary">VER</a>
               </div>
             </div>
@@ -118,18 +135,25 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">NO FICCIÓN</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text">Los libros informativos también llamados libros “de no ficción” tienen como objetivo servir como
+                  fuentes de conocimiento sobre temas variados. Un texto informativo podría ser un libro sencillo
+                  de palabras o de dibujos, o hasta explicar conceptos científicos más complicados con fotografías
+                  y diagramas. Se editan libros informativos para niños y niñas sobre muchos temas, como animales,
+                  plantas, vehículos, familias, empleos, lugares interesantes y las artes.</p>
                 <a href="#" class="btn btn-primary">VER</a>
               </div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="col-sm-6 mb-3 mb-sm-5">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">HISTORIETA</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text">Las historietas, también llamadas comics o novelas gráficas, son textos que combinan imágenes y
+                  texto escrito en una forma particular. La principal característica de una historieta es que la página
+                  está dividida en cuadros llamados viñetas, complementados por cartuchos de narración y globos
+                  de habla y pensamiento.</p>
                 <a href="#" class="btn btn-primary">VER</a>
               </div>
             </div>
@@ -138,7 +162,18 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">LIBRO ÁLBUM</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text">La imagen y el texto comparten a la vez y con la misma importancia una función narrativa. Ambos
+                  lenguajes construyen una relación sinérgica que excede dialécticamente lo textual y lo visual. Esta lectura demanda un alto grado de participación del/la lector/a para dar cuenta de aspectos
+
+                  de la historia y de la caracterización de los personajes que se van revelando con las continuas lec-
+                  turas y relecturas.
+                  
+                  Cada elección editorial cumple una función en la construcción del sentido de la historia y forman
+                  
+                  parte de ella. Debemos poner atención a la tapa, a la contratapa, a las guardas, a la tipografía, por-
+                  que solo en este conjunto, este tipo de libro tiene sentido, por eso indicamos, que la lectura debe
+                  
+                  ser un libro, un lector/a.</p>
                 <a href="#" class="btn btn-primary">VER</a>
               </div>
             </div>
