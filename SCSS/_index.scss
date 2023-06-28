@@ -8,44 +8,40 @@ section {
   text-align: center;
   font-size: 80px;
 }
+
 .botoningresar {
-  margin-bottom: 10rem;
+  margin-top: 5rem;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   border: 2px solid #bc81ff;
   border-radius: 10px;
   font-family: "sand", sans-serif;
   font-size: 25px;
+  color: #000000;
   box-shadow: 0 10px 30px -10px black;
   background-color: #ffffff;
-  color: #000000;
-  cursor: pointer;
   font-size: 25px;
   text-transform: uppercase;
   padding: 20px 40px;
   position: relative;
-  overflow: hidden;
-  transition: all 0.5s;
-}
-
-.botoningresar:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 0%;
-  width: 100%;
-  background-color: #ffff;
-  z-index: -1;
-  border-radius: 0 0 50% 50%;
-  transition: all 0.5s;
-}
-
-.botoningresar:hover:before {
-  height: 190%;
 }
 
 .botoningresar:hover {
   color: blueviolet;
 }
+
+.botoningresar {
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.botoningresar:hover {
+  transform: scale3d(1.5, 1.5, 0.3);
+  -webkit-transform: scale3d(1.5, 1.5, 0.3);
+  -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+
 h2 {
   margin: 0rem;
   margin-left: 2rem;

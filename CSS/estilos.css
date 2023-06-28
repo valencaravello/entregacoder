@@ -48,7 +48,6 @@ a {
 
 .botoningresar {
   margin-top: 5rem;
-
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -157,4 +156,8 @@ footer {
       height: 400px;
     }
   }
+}
+
+.card-body {
+  margin-right: 5rem;
 }
