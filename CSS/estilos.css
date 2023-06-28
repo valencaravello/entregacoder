@@ -95,7 +95,7 @@ footer {
 
 iframe {
   margin-left: 50rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 footer div {
@@ -158,6 +158,6 @@ footer {
   }
 }
 
-.card-body {
+.card {
   margin-right: 5rem;
 }
