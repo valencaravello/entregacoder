@@ -4,31 +4,28 @@
   padding: 0;
 }
 .logo {
-  margin-top: 1rem;
-  margin-left: 1rem;
+  margin-top: 0rem;
 }
 
-header {
-  padding: 0, 5rem 0;
-  position: sticky;
-  top: 0%;
-  z-index: 2%;
-  background-image: url("../imagenes/jardin.jpg");
-  height: 400px;
+main {
+  background-image: url(../imagenes/olas.svg);
+  height: 50%;
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .titulo {
   text-align: center;
-  font-size: 75px;
-  background-color: #d6b1ff;
+  font-size: 80px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .parrafo {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   font-family: sans-serif;
 }
 
@@ -81,7 +78,7 @@ a {
 
 section {
   font-family: "Quicksand", sans-serif;
-  background-color: #d6b1ff;
+
   padding-top: 1rem;
 }
 
@@ -99,7 +96,7 @@ iframe {
 }
 
 footer div {
-  text-align: right;
+  text-align: center;
 }
 
 body {
@@ -140,7 +137,12 @@ footer {
 }
 
 .navbar {
-  background-color: #ffff;
+  background-color: #d6b1ff;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+  font-size: 15px;
 }
 
 .btn-outline-success {
