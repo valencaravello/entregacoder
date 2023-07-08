@@ -19,73 +19,12 @@ header {
   background-color: white;
 }
 
-.btn-outline-success {
-  background-color: white;
-  border-color: #bc81ff;
-  color: #bc81ff;
-  font-family: sans-serif;
-}
-
-section {
-  color: #d6b1ff;
-  font-family: "Quicksand", sans-serif;
-  padding-top: 1rem;
-}
-
-.titulo {
-  text-align: center;
-  font-size: 80px;
-}
-
-.botoningresar {
-  margin-top: 5rem;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  border: 2px solid #bc81ff;
-  border-radius: 10px;
-  font-family: "sand", sans-serif;
-  font-size: 25px;
-  color: #000000;
-  box-shadow: 0 10px 30px -10px black;
-  background-color: #ffffff;
-  font-size: 25px;
-  text-transform: uppercase;
-  padding: 20px 40px;
-  position: relative;
-}
-
-.botoningresar:hover {
-  color: blueviolet;
-}
-
-.botoningresar {
-  transition: 0.5s, color 0.1s;
-  -webkit-transition: 0.5s, color 0.1s;
-  -moz-transition: 0.5s, color 0.1s;
-}
-
-.botoningresar:hover {
-  transform: scale3d(1.5, 1.5, 0.3);
-  -webkit-transform: scale3d(1.5, 1.5, 0.3);
-  -moz-transform: scale3d(1.5, 1.5, 0.3);
-}
-
-h2 {
-  margin: 0rem;
-  margin-left: 2rem;
-  font-size: 70;
-}
-
 footer {
   color: white;
   text-align: center;
   background-color: black;
   font-family: "Inter", sans-serif;
   padding: 1rem 0;
-}
-footer div {
-  text-align: right;
 }
 
 iframe {
@@ -94,7 +33,7 @@ iframe {
 }
 
 body {
-  background-color: #bc81ff;
+  background-color: white;
   grid-template-rows: auto auto 1fr auto;
   min-height: 100vh;
   grid-template-columns: 1fr;
