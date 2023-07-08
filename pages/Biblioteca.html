@@ -67,103 +67,187 @@
         <section>
           <div>
             <h1 class="titulo">BIBLIOTECA DEL JARDÍN</h1>
-         
+         <h2 class="subtitulo">Inventario de libros disponibles</h2>
         </div>
-        <div>
-         
-        </div>
+        <div><h2>¡Podés buscar el que necesites acá!</h2></div>
+          <div class="container-fluid">
+            <form  role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+      
       </section>
  
-      <section >
-        <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-5">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">NARRATIVA</h5>
-                <p class="card-text">Cuentos: relatos de ficción de extensión breve con un reducido número de personajes que realizan
-                  acciones en un lugar y un tiempo determinado.
-                  Novela: narración más extensa que la de un cuento cuyo argumento, personajes y escenarios están más
-desarrollados complejizando la historia. Está dividida en capítulos.
-Mito - Leyenda: el mito y la leyenda son formas narrativas tomadas de la oralidad. Estructuralmente son similares
-al cuento folclórico. Las diferencias se centran básicamente en el tipo de personajes. Los mitos,
-generalmente, tratan sobre el origen del mundo en cambio, en las leyendas el tema es el origen de
-elementos naturales de una cultura.
-                </p>
-                <a href="#" class="btn btn-primary">VER</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">LIBRO ÁLBUM</h5>
-                <p class="card-text">
-                  La imagen y el texto comparten a la vez y con la misma importancia una función narrativa. Ambos
-lenguajes construyen una relación sinérgica que excede dialécticamente lo textual y lo visual. Esta lectura demanda un alto grado de participación del/la lector/a para dar cuenta de aspectos
-de la historia y de la caracterización de los personajes.
-Cada elección editorial cumple una función en la construcción del sentido de la historia y forman parte de ella. Debemos poner atención a la tapa, a la contratapa, a las guardas, a la tipografía,
-porque solo en este conjunto, este tipo de libro tiene sentido, por eso indicamos, que la lectura debe ser un libro, un lector/a.</p>
-                <a href="#" class="btn btn-primary">VER</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-5">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">POESÍA</h5>
-                <p class="card-text">Los textos poéticos presentan un lenguaje particular que juega con la música, el sentido de las
-                  palabras y las asociaciones. La mayoría de las poesías están escritas en verso y utilizan recursos
-                  llamados figuras retóricas. Estos textos no tienen como
-                  
-                  finalidad contar una historia, aunque hay algunos de trama narrativa. El objetivo es transmitir sen-
-                  saciones y su significado surge de las asociaciones que se realicen entre las palabras.</p>
-                <a href="#" class="btn btn-primary">VER</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">NO FICCIÓN</h5>
-                <p class="card-text">Los libros informativos también llamados libros “de no ficción” tienen como objetivo servir como
-                  fuentes de conocimiento sobre temas variados. Un texto informativo podría ser un libro sencillo
-                  de palabras o de dibujos, o hasta explicar conceptos científicos más complicados con fotografías
-                  y diagramas. Se editan libros informativos para niños y niñas sobre muchos temas, como animales,
-                  plantas, vehículos, familias, empleos, lugares interesantes y las artes.</p>
-                <a href="#" class="btn btn-primary">VER</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-5">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">HISTORIETA</h5>
-                <p class="card-text">También llamadas comics, son textos que combinan imágenes y
-                  texto escrito. La principal característica es que la página
-                  está dividida en cuadros llamados viñetas, complementados narración y globos
-                  de habla y pensamiento.</p>
-                <a href="#" class="btn btn-primary">VER</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">ORALIDAD</h5>
-                <p class="card-text">Dentro de esta clasificación se encuentra aquella literatura vinculada a la oralidad como las nanas,
-                  las canciones, las adivinanzas, los trabalenguas, etc.
-                </p>
-                <a href="#" class="btn btn-primary">VER</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">N°INV</th>
+              <th scope="col"> AUTOR</th>
+              <th scope="col">TÍTULO</th>
+              <th scope="col">EDICIÓN
+              </th>
+              <th scope="col">LUGAR</th>
+              <th scope="col">EDITORIAL</th>
+              <th scope="col">AÑO</th>
+              <th scope="col">CANTIDAD</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Alzial, Sylvain</td>
+              <td>Panthera Tigris</td>
+              <td>Primera edición especial 2022</td>
+              <td>Bs.As.</td>
+              <td>Ediciones Iamiqué</td>
+              <td>2022</td>
+              <td>15</td>
 
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Read, Kate</td>
+              <td>Un zorro. Un libro (de miedo) para contar</td>
+              <td>Edición especial 2022</td>
+              <td>Bs. As.</td>
+              <td>Libros del zorro rojo.</td>
+              <td>2022</td>
+              <td>59</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Zarchi, Nurit</td>
+              <td>Nos vemos en la Antártida</td>
+              <td>Primera edición especial 2022</td>
+              <td>C.A.B.A</td>
+              <td>Pípala</td>
+              <td>2022</td>
+              <td>14</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Maes, Jacques</td>
+              <td>Paloma</td>
+              <td>Primera edición especial 2022</td>
+              <td>Bs.As.</td>
+              <td>Pípala</td>
+              <td>2022</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Legge, David</td>
+              <td>Algo raro en casa del abuelo</td>
+              <td>Edición para Ministerio de Educación de la Nación</td>
+              <td>C.A.B.A</td>
+              <td>Calibroscopio</td>
+              <td>2022</td>
+              <td>17</td>
+              
+
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Bodoc, Liliana</td>
+              <td>Simi Tití mira el mundo</td>
+              <td>Primera edición especial 2022</td>
+              <td>C.A.B.A</td>
+              <td>Norma</td>
+              <td>2022</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Azarmendia, Ángel</td>
+              <td>El maravilloso libro de los cuentos de hadas</td>
+              <td>Primera edición</td>
+              <td>Bs.As.</td>
+              <td>Atlántida</td>
+              <td>2013</td>
+              <td>02</td>
+            </tr>
+
+            <tr>
+              <th scope="row">8</th>
+              <td>Azarmendia, Ángel</td>
+              <td>El maravilloso libro de los cuentos de hadas</td>
+              <td>Primera edición</td>
+              <td>Bs.As.</td>
+              <td>Atlántida</td>
+              <td>2013</td>
+              <td>02</td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">9</th>
+              <td>Azarmendia, Ángel</td>
+              <td>El maravilloso libro de los cuentos de hadas</td>
+              <td>Primera edición</td>
+              <td>Bs.As.</td>
+              <td>Atlántida</td>
+              <td>2013</td>
+              <td>02</td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">10</th>
+              <td>Azarmendia, Ángel</td>
+              <td>El maravilloso libro de los cuentos de hadas</td>
+              <td>Primera edición</td>
+              <td>Bs.As.</td>
+              <td>Atlántida</td>
+              <td>2013</td>
+              <td>02</td>
+            </tr>
+
+            <tr>
+              <th scope="row">11</th>
+              <td>Azarmendia, Ángel</td>
+              <td>El maravilloso libro de los cuentos de hadas</td>
+              <td>Primera edición</td>
+              <td>Bs.As.</td>
+              <td>Atlántida</td>
+              <td>2013</td>
+              <td>02</td>
+            </tr>
+
+            <tr>
+              <th scope="row">12</th>
+              <td>Azarmendia, Ángel</td>
+              <td>El maravilloso libro de los cuentos de hadas</td>
+              <td>Primera edición</td>
+              <td>Bs.As.</td>
+              <td>Atlántida</td>
+              <td>2013</td>
+              <td>02</td>
+            </tr>
+            <tr>
+              <th scope="row">13</th>
+              <td>Azarmendia, Ángel</td>
+              <td>El maravilloso libro de los cuentos de hadas</td>
+              <td>Primera edición</td>
+              <td>Bs.As.</td>
+              <td>Atlántida</td>
+              <td>2013</td>
+              <td>02</td>
+            </tr>
+            <tr>
+              <th scope="row">14</th>
+              <td>Azarmendia, Ángel</td>
+              <td>El maravilloso libro de los cuentos de hadas</td>
+              <td>Primera edición</td>
+              <td>Bs.As.</td>
+              <td>Atlántida</td>
+              <td>2013</td>
+              <td>02</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
    
       <footer>
