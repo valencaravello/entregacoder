@@ -151,7 +151,7 @@ hr {
   border-color: #fff;
 }
 
-p {
+h2 {
   margin-top: 5px;
   font-size: 25px;
   font-family: "Monserrat", sans-serif;
@@ -190,7 +190,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.button:hover {
   color: #f70090;
   transition: color 0.3s ease-in;
 }
@@ -224,6 +224,32 @@ a:hover {
 
 .card {
   margin-right: 5rem;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  animation: 10s linear 10s infinite alternate rise,
+    20s linear 0s infinite alternate bounce;
+}
+
+@keyframes rise {
+  from {
+    transform: translate(20vh);
+  }
+  to {
+    transform: translate(20);
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translate(-20vw);
+  }
+  to {
+    transform: translate(20vw);
+  }
 }
 
 footer {
@@ -270,13 +296,11 @@ footer {
 }
 
 @media (max-width: 768px) {
-  header{
-    display: flex;
-    align-items: center;
-  }
   main {
     display: flex;
     align-items: center;
   }
+  .titulo {
+    font-size: 30px;
   }
 }
