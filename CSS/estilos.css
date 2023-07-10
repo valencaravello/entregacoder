@@ -1,7 +1,7 @@
 * {
-  margin: 0;
+  margin: 0px;
 
-  padding: 0;
+  padding: 0px;
 }
 .logo {
   margin-top: 0rem;
@@ -40,14 +40,14 @@ body {
   background-color: #ffffff;
 }
 
-.container2 {
+.grid-container2 {
   width: 1500px;
   height: 800px;
   position: relative;
   background: #ffffff;
 }
 
-.circle-orange-small {
+.circle-rojo-small {
   height: 120px;
   width: 120px;
   position: absolute;
@@ -56,9 +56,10 @@ body {
   background-color: #fb0404;
   border-radius: 50%;
   opacity: 0.6;
+  flex-wrap: wrap;
 }
 
-.circle-orange-small2 {
+.circle-naranja-small {
   height: 120px;
   width: 120px;
   position: absolute;
@@ -69,7 +70,7 @@ body {
   opacity: 0.6;
 }
 
-.circle-orange-big {
+.circle-amarillo-big {
   height: 260px;
   width: 260px;
   position: absolute;
@@ -80,29 +81,29 @@ body {
   opacity: 0.7;
 }
 
-.circle-blue {
+.circle-celeste {
   height: 400px;
   width: 400px;
   position: absolute;
-  top: 100px;
-  right: -200px;
+  top: 90px;
+  right: -190px;
   background-color: #0a8df3;
   border-radius: 50%;
   opacity: 0.5;
 }
 
-.circle-blue2 {
+.circle-violeta {
   height: 400px;
   width: 400px;
   position: absolute;
   top: 400px;
-  right: -500px;
+  right: -420px;
   background-color: #e504fa;
   border-radius: 50%;
   opacity: 0.5;
 }
 
-.circle-blue-small {
+.circle-azul-small {
   height: 170px;
   width: 170px;
   position: absolute;
@@ -118,7 +119,7 @@ body {
   width: 600px;
   position: absolute;
   top: 30px;
-  right: 110px;
+  right: 180px;
   background-color: #f70090;
   border-radius: 50%;
   opacity: 0.5;
@@ -130,7 +131,7 @@ body {
   width: 600px;
   position: absolute;
   top: 30px;
-  right: 110px;
+  right: 155px;
   background-color: transparent;
   border-radius: 50%;
   opacity: 1;
@@ -162,7 +163,7 @@ h2 {
   height: 80px;
   width: 100px;
   margin-right: 15%;
-  margin-top: 5%;
+  margin-top: 10%;
   float: right;
 }
 
@@ -173,10 +174,10 @@ h2 {
   cursor: pointer;
   background: none;
   border: 2px solid #fff;
-  border-radius: 3px;
+  border-radius: 5px;
   color: white;
-  font-weight: bolder;
-  font-size: 16px;
+  font-weight: normal;
+  font-size: 20px;
   outline: none;
   font-family: "Roboto", sans-serif;
 }
@@ -184,25 +185,20 @@ h2 {
 .btn2 {
   width: 0;
   height: 80px;
-  background-color: #fbfbfb;
+  background-color: #ffffff;
   transition: width 0.3s ease-in;
 }
 a {
   text-decoration: none;
 }
 
-.button:hover {
-  color: #f70090;
-  transition: color 0.3s ease-in;
-}
-
 .cta:hover .btn2 {
   width: 100px;
-  background-color: #fff;
+  background-color: #ff;
   color: #f70090;
 }
 
-.circle-green {
+.circle-verde {
   height: 250px;
   width: 250px;
   position: absolute;
@@ -217,10 +213,6 @@ a {
   background-color: #ffffff;
   padding-left: 7rem;
   margin-bottom: 0rem;
-}
-
-.d-flex {
-  margin-left: 65rem;
 }
 
 .card {
@@ -259,15 +251,7 @@ footer {
   text-align: center;
   background-color: black;
   font-family: "Inter", sans-serif;
-  padding: 1rem 0;
-}
-
-footer div {
-  text-align: center;
-}
-
-.parrafofooter {
-  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 body {
@@ -300,7 +284,44 @@ footer {
 @media (max-width: 768px) {
   main {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+  }
+  .circle-center-text {
+    top: 5px;
+    right: 350px;
+    height: 250px;
+    width: 250px;
+  }
+  .circle-rojo-small {
+    top: 5px;
+  }
+  .circle-center {
+    height: 500px;
+    width: 500px;
+  }
+  .circle-celeste {
+    height: 200px;
+    width: 200px;
+    right: 80px;
+  }
+  .circle-violeta {
+    height: 200px;
+    width: 200px;
+    right: 90px;
+  }
+  .circle-verde {
+    left: 250px;
+    bottom: 40px;
+  }
+  .circle-amarillo-big {
+    height: 200px;
+    width: 200px;
+    top: 450px;
+  }
+  .circle-naranja-small {
+    height: 100px;
+    width: 100px;
+    right: 90px;
   }
   .titulo {
     font-size: 30px;
