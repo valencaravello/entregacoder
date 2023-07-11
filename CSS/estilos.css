@@ -284,7 +284,6 @@ footer {
 @media (max-width: 768px) {
   main {
     display: flex;
-    align-items: flex-start;
   }
   .circle-center-text {
     top: 100px;
@@ -328,6 +327,9 @@ footer {
   }
   .titulo {
     font-size: 30px;
+  }
+  .card-bodydescripcion {
+    font-size: 25px;
   }
 }
 
