@@ -287,17 +287,19 @@ footer {
     align-items: flex-start;
   }
   .circle-center-text {
-    top: 5px;
-    right: 350px;
-    height: 250px;
-    width: 250px;
+    top: 100px;
+    right: 150px;
+    height: 200px;
+    width: 200px;
   }
   .circle-rojo-small {
     top: 5px;
   }
   .circle-center {
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
+    top: 130px;
+    right: 80px;
   }
   .circle-celeste {
     height: 200px;
@@ -307,7 +309,8 @@ footer {
   .circle-violeta {
     height: 200px;
     width: 200px;
-    right: 90px;
+    right: 150px;
+    top: 390px;
   }
   .circle-verde {
     left: 250px;
