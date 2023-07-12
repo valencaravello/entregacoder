@@ -26,6 +26,10 @@ li.nav-item {
   color: #000000;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 main {
   background-color: #ffffff;
 }
@@ -34,10 +38,6 @@ iframe {
   margin-bottom: 1rem;
   display: flex;
   align-items: flex-start;
-}
-
-body {
-  background-color: #ffffff;
 }
 
 .grid-container2 {
@@ -405,6 +405,10 @@ footer {
 
   .galery .grid2 {
     margin-right: 0rem;
+  }
+
+  .col {
+    padding-left: 0rem;
   }
 }
 

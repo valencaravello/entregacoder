@@ -1,7 +1,148 @@
-@media (min-width: 768px) {
-  body {
-    header {
-      height: 400px;
-    }
+@media (max-width: 768px) {
+  main {
+    display: flex;
+  }
+  .circle-center-text {
+    top: 100px;
+    right: 150px;
+    height: 200px;
+    width: 200px;
+  }
+  .circle-rojo-small {
+    top: 5px;
+  }
+  .circle-center {
+    height: 300px;
+    width: 300px;
+    top: 130px;
+    right: 80px;
+  }
+  .circle-celeste {
+    height: 200px;
+    width: 200px;
+    right: 60px;
+  }
+  .circle-violeta {
+    height: 200px;
+    width: 200px;
+    right: 150px;
+    top: 390px;
+  }
+  .circle-verde {
+    left: 250px;
+    bottom: 40px;
+  }
+  .circle-amarillo-big {
+    height: 200px;
+    width: 200px;
+    top: 450px;
+  }
+  .circle-naranja-small {
+    height: 100px;
+    width: 100px;
+    right: 90px;
+  }
+  .titulo {
+    font-size: 30px;
+  }
+  .card-bodydescripcion {
+    font-size: 20px;
+  }
+  .galery .grid2 {
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-rows: repeat(5, 50vh);
+  }
+
+  .item1 {
+    grid-row: 1;
+  }
+  .item2 {
+    grid-row: 2;
+  }
+  .item3 {
+    grid-row: 3;
+  }
+  .item4 {
+    grid-row: 4;
+  }
+  .item5 {
+    grid-row: 5;
+  }
+  .item6 {
+    grid-row: 6;
+  }
+  .item7 {
+    grid-row: 7;
+  }
+  .item8 {
+    grid-row: 8;
+  }
+  .item9 {
+    grid-row: 9;
+  }
+  .item10 {
+    grid-row: 10;
+  }
+  .item11 {
+    grid-row: 11;
+  }
+  .item12 {
+    grid-row: 12;
+  }
+  .item13 {
+    grid-row: 13;
+  }
+  .item14 {
+    grid-row: 14;
+  }
+  .item15 {
+    grid-row: 15;
+  }
+
+  .item1,
+  .item4,
+  .item7,
+  .item10,
+  .item13,
+  .item2,
+  .item5,
+  .item8,
+  .item11,
+  .item14,
+  .item3,
+  .item6,
+  .item9,
+  .item12,
+  .item15 {
+    grid-column: 1;
+  }
+  .subtitulo {
+    font-size: 15px;
+  }
+
+  .galery .grid2 {
+    margin-right: 0rem;
+  }
+
+  .col {
+    padding-left: 0rem;
+  }
+}
+
+@keyframes rise {
+  from {
+    transform: translate(20vh);
+  }
+  to {
+    transform: translate(20);
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translate(-20vw);
+  }
+  to {
+    transform: translate(20vw);
   }
 }
